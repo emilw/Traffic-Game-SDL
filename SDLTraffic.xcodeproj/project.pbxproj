@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20215E6618F59EB300262096 /* libTrafficEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20215E6518F59EB300262096 /* libTrafficEngine.a */; };
+		20215E6B18F6BFBD00262096 /* CGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20215E6918F6BFBD00262096 /* CGame.cpp */; };
+		209D149C18F83E2200028C65 /* CVehicleSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 209D149A18F83E2200028C65 /* CVehicleSprite.cpp */; };
+		209D14A118F8413D00028C65 /* CTrafficEnginePlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 209D149F18F8413D00028C65 /* CTrafficEnginePlugin.cpp */; };
+		209D14AA18FAEA2500028C65 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D14A918FAEA2500028C65 /* SDL2_image.framework */; };
+		209D14B018FAEB7700028C65 /* Road.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209D14AF18FAEB6400028C65 /* Road.png */; };
+		209D14B118FAEB7D00028C65 /* RedCar.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209D14AD18FAEB4800028C65 /* RedCar.png */; };
+		209D14B218FAEB8200028C65 /* GreenCar.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209D14AC18FAEB3C00028C65 /* GreenCar.png */; };
+		209D14B318FAEB8700028C65 /* BlueCar.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 209D14AB18FAEB3200028C65 /* BlueCar.png */; };
+		20B4D88718F57C30004FCE60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20B4D88618F57C30004FCE60 /* main.cpp */; };
+		20B4D88918F57C30004FCE60 /* SDLTraffic.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20B4D88818F57C30004FCE60 /* SDLTraffic.1 */; };
+		20B4D89018F57F72004FCE60 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B4D88F18F57F72004FCE60 /* SDL2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		209D149818F6D9A700028C65 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Assets/Images;
+			dstSubfolderSpec = 16;
+			files = (
+				209D14B318FAEB8700028C65 /* BlueCar.png in CopyFiles */,
+				209D14B218FAEB8200028C65 /* GreenCar.png in CopyFiles */,
+				209D14B118FAEB7D00028C65 /* RedCar.png in CopyFiles */,
+				209D14B018FAEB7700028C65 /* Road.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B4D88118F57C30004FCE60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				20B4D88918F57C30004FCE60 /* SDLTraffic.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20215E6518F59EB300262096 /* libTrafficEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTrafficEngine.a; path = "../../../Library/Developer/Xcode/DerivedData/TrafficEngine-draogbhagfycjbcujyfmmminmoey/Build/Products/Debug-universal/libTrafficEngine.a"; sourceTree = "<group>"; };
+		20215E6918F6BFBD00262096 /* CGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGame.cpp; sourceTree = "<group>"; };
+		20215E6A18F6BFBD00262096 /* CGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGame.h; sourceTree = "<group>"; };
+		209D149A18F83E2200028C65 /* CVehicleSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVehicleSprite.cpp; sourceTree = "<group>"; };
+		209D149B18F83E2200028C65 /* CVehicleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVehicleSprite.h; sourceTree = "<group>"; };
+		209D149F18F8413D00028C65 /* CTrafficEnginePlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTrafficEnginePlugin.cpp; sourceTree = "<group>"; };
+		209D14A018F8413D00028C65 /* CTrafficEnginePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTrafficEnginePlugin.h; sourceTree = "<group>"; };
+		209D14A918FAEA2500028C65 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		209D14AB18FAEB3200028C65 /* BlueCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueCar.png; sourceTree = "<group>"; };
+		209D14AC18FAEB3C00028C65 /* GreenCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenCar.png; sourceTree = "<group>"; };
+		209D14AD18FAEB4800028C65 /* RedCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCar.png; sourceTree = "<group>"; };
+		209D14AE18FAEB5B00028C65 /* Road-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Road-iPad.png"; sourceTree = "<group>"; };
+		209D14AF18FAEB6400028C65 /* Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Road.png; sourceTree = "<group>"; };
+		209D14B518FAED1000028C65 /* cars-loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cars-loop.aif"; sourceTree = "<group>"; };
+		209D14B618FAED1000028C65 /* crash.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = crash.aif; sourceTree = "<group>"; };
+		209D14B718FAED1000028C65 /* MusicTrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MusicTrack.mp3; sourceTree = "<group>"; };
+		209D14B818FAED1000028C65 /* screech.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = screech.aif; sourceTree = "<group>"; };
+		20B4D88318F57C30004FCE60 /* SDLTraffic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLTraffic; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B4D88618F57C30004FCE60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		20B4D88818F57C30004FCE60 /* SDLTraffic.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SDLTraffic.1; sourceTree = "<group>"; };
+		20B4D88F18F57F72004FCE60 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B4D88018F57C30004FCE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D14AA18FAEA2500028C65 /* SDL2_image.framework in Frameworks */,
+				20B4D89018F57F72004FCE60 /* SDL2.framework in Frameworks */,
+				20215E6618F59EB300262096 /* libTrafficEngine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209D147E18F6D0E700028C65 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				209D14B418FAED1000028C65 /* Audio */,
+				209D147F18F6D0E700028C65 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		209D147F18F6D0E700028C65 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				209D14AF18FAEB6400028C65 /* Road.png */,
+				209D14AE18FAEB5B00028C65 /* Road-iPad.png */,
+				209D14AD18FAEB4800028C65 /* RedCar.png */,
+				209D14AC18FAEB3C00028C65 /* GreenCar.png */,
+				209D14AB18FAEB3200028C65 /* BlueCar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		209D14B418FAED1000028C65 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				209D14B518FAED1000028C65 /* cars-loop.aif */,
+				209D14B618FAED1000028C65 /* crash.aif */,
+				209D14B718FAED1000028C65 /* MusicTrack.mp3 */,
+				209D14B818FAED1000028C65 /* screech.aif */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		20B4D87A18F57C30004FCE60 = {
+			isa = PBXGroup;
+			children = (
+				209D14A918FAEA2500028C65 /* SDL2_image.framework */,
+				209D147E18F6D0E700028C65 /* Assets */,
+				20215E6518F59EB300262096 /* libTrafficEngine.a */,
+				20B4D88F18F57F72004FCE60 /* SDL2.framework */,
+				20B4D88518F57C30004FCE60 /* SDLTraffic */,
+				20B4D88418F57C30004FCE60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20B4D88418F57C30004FCE60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B4D88318F57C30004FCE60 /* SDLTraffic */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B4D88518F57C30004FCE60 /* SDLTraffic */ = {
+			isa = PBXGroup;
+			children = (
+				20B4D88618F57C30004FCE60 /* main.cpp */,
+				20B4D88818F57C30004FCE60 /* SDLTraffic.1 */,
+				20215E6918F6BFBD00262096 /* CGame.cpp */,
+				20215E6A18F6BFBD00262096 /* CGame.h */,
+				209D149A18F83E2200028C65 /* CVehicleSprite.cpp */,
+				209D149B18F83E2200028C65 /* CVehicleSprite.h */,
+				209D149F18F8413D00028C65 /* CTrafficEnginePlugin.cpp */,
+				209D14A018F8413D00028C65 /* CTrafficEnginePlugin.h */,
+			);
+			path = SDLTraffic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B4D88218F57C30004FCE60 /* SDLTraffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B4D88C18F57C30004FCE60 /* Build configuration list for PBXNativeTarget "SDLTraffic" */;
+			buildPhases = (
+				20B4D87F18F57C30004FCE60 /* Sources */,
+				20B4D88018F57C30004FCE60 /* Frameworks */,
+				20B4D88118F57C30004FCE60 /* CopyFiles */,
+				209D149818F6D9A700028C65 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDLTraffic;
+			productName = SDLTraffic;
+			productReference = 20B4D88318F57C30004FCE60 /* SDLTraffic */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B4D87B18F57C30004FCE60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Emil Westholm";
+			};
+			buildConfigurationList = 20B4D87E18F57C30004FCE60 /* Build configuration list for PBXProject "SDLTraffic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20B4D87A18F57C30004FCE60;
+			productRefGroup = 20B4D88418F57C30004FCE60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B4D88218F57C30004FCE60 /* SDLTraffic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B4D87F18F57C30004FCE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D14A118F8413D00028C65 /* CTrafficEnginePlugin.cpp in Sources */,
+				20B4D88718F57C30004FCE60 /* main.cpp in Sources */,
+				20215E6B18F6BFBD00262096 /* CGame.cpp in Sources */,
+				209D149C18F83E2200028C65 /* CVehicleSprite.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20B4D88A18F57C30004FCE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20B4D88B18F57C30004FCE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20B4D88D18F57C30004FCE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/Emil/Library/Developer/Xcode/DerivedData/TrafficEngine-draogbhagfycjbcujyfmmminmoey/Build/Products/Debug-universal/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TrafficEngine-draogbhagfycjbcujyfmmminmoey/Build/Products/Debug-universal",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TrafficEngine-draogbhagfycjbcujyfmmminmoey/Build/Products/Debug",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20B4D88E18F57C30004FCE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					$SOURCE_ROOT/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TrafficEngine-draogbhagfycjbcujyfmmminmoey/Build/Products/Debug-universal",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TrafficEngine-draogbhagfycjbcujyfmmminmoey/Build/Products/Debug",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B4D87E18F57C30004FCE60 /* Build configuration list for PBXProject "SDLTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B4D88A18F57C30004FCE60 /* Debug */,
+				20B4D88B18F57C30004FCE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B4D88C18F57C30004FCE60 /* Build configuration list for PBXNativeTarget "SDLTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B4D88D18F57C30004FCE60 /* Debug */,
+				20B4D88E18F57C30004FCE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B4D87B18F57C30004FCE60 /* Project object */;
+}
